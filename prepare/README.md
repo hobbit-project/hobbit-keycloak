@@ -33,10 +33,10 @@ Erstellung der Rollenzuordnung fehlt noch im Python-Skript und ist deshalb manue
 - View All Users
 - Für jeden Benutzer
   - Role Mappings setzen
-    admin: benchmark-provider, challenge-organiser, guest, system-provider
-    benchmark-provider: benchmark-provider
-    challenge-organiser: challenge-organiser
-    guest: guest
-    system-provider: system-provider
+    - admin: benchmark-provider, challenge-organiser, guest, system-provider
+    - benchmark-provider: benchmark-provider
+    - challenge-organiser: challenge-organiser
+    - guest: guest
+    - system-provider: system-provider
 
 
