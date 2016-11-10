@@ -1,0 +1,34 @@
+[
+  {
+    "id": "78f3bfd7-6f9d-4cb8-af19-8eef335a15e4",
+    "name": "system-provider",
+    "scopeParamRequired": false,
+    "composite": false,
+    "clientRole": false,
+    "containerId": "Hobbit"
+  },
+  {
+    "id": "39a1c799-6035-4fdf-9333-bb22ea9edef2",
+    "name": "benchmark-provider",
+    "scopeParamRequired": false,
+    "composite": false,
+    "clientRole": false,
+    "containerId": "Hobbit"
+  },
+  {
+    "id": "31d85239-2b0b-4a92-a8b0-8f94fd76a2a1",
+    "name": "guest",
+    "scopeParamRequired": false,
+    "composite": false,
+    "clientRole": false,
+    "containerId": "Hobbit"
+  },
+  {
+    "id": "dc77d36b-85cb-4d38-9e8c-0d762c18a738",
+    "name": "challenge-organiser",
+    "scopeParamRequired": false,
+    "composite": false,
+    "clientRole": false,
+    "containerId": "Hobbit"
+  }
+]

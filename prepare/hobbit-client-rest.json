@@ -1,0 +1,125 @@
+  {
+    "id": "9d02df20-4aea-4bba-ad1e-e79f7f7a243a",
+    "clientId": "Hobbit-REST",
+    "name": "Hobbit-REST",
+    "surrogateAuthRequired": false,
+    "enabled": true,
+    "clientAuthenticatorType": "client-secret",
+    "redirectUris": [],
+    "webOrigins": [],
+    "notBefore": 0,
+    "bearerOnly": true,
+    "consentRequired": false,
+    "standardFlowEnabled": true,
+    "implicitFlowEnabled": false,
+    "directAccessGrantsEnabled": true,
+    "serviceAccountsEnabled": false,
+    "publicClient": false,
+    "frontchannelLogout": false,
+    "protocol": "openid-connect",
+    "attributes": {
+      "saml.assertion.signature": "false",
+      "saml.multivalued.roles": "false",
+      "saml.force.post.binding": "false",
+      "saml.encrypt": "false",
+      "saml_force_name_id_format": "false",
+      "saml.client.signature": "false",
+      "saml.authnstatement": "false",
+      "saml.server.signature": "false"
+    },
+    "fullScopeAllowed": true,
+    "nodeReRegistrationTimeout": -1,
+    "protocolMappers": [
+      {
+        "id": "b386df89-426e-4357-b7cd-51f0ab57f783",
+        "name": "given name",
+        "protocol": "openid-connect",
+        "protocolMapper": "oidc-usermodel-property-mapper",
+        "consentRequired": true,
+        "consentText": "${givenName}",
+        "config": {
+          "userinfo.token.claim": "true",
+          "user.attribute": "firstName",
+          "id.token.claim": "true",
+          "access.token.claim": "true",
+          "claim.name": "given_name",
+          "jsonType.label": "String"
+        }
+      },
+      {
+        "id": "3ed3f57c-4235-4e65-af7d-6d3b5fb017e9",
+        "name": "role list",
+        "protocol": "saml",
+        "protocolMapper": "saml-role-list-mapper",
+        "consentRequired": false,
+        "config": {
+          "single": "false",
+          "attribute.nameformat": "Basic",
+          "attribute.name": "Role"
+        }
+      },
+      {
+        "id": "0235e1eb-6a8e-4ab9-bbd7-64f2602a0175",
+        "name": "full name",
+        "protocol": "openid-connect",
+        "protocolMapper": "oidc-full-name-mapper",
+        "consentRequired": true,
+        "consentText": "${fullName}",
+        "config": {
+          "id.token.claim": "true",
+          "access.token.claim": "true"
+        }
+      },
+      {
+        "id": "7629a4dd-f93a-47eb-b7b4-7a2c1be82b4b",
+        "name": "email",
+        "protocol": "openid-connect",
+        "protocolMapper": "oidc-usermodel-property-mapper",
+        "consentRequired": true,
+        "consentText": "${email}",
+        "config": {
+          "userinfo.token.claim": "true",
+          "user.attribute": "email",
+          "id.token.claim": "true",
+          "access.token.claim": "true",
+          "claim.name": "email",
+          "jsonType.label": "String"
+        }
+      },
+      {
+        "id": "fe8eb3df-756f-4718-a7ef-861866195d21",
+        "name": "family name",
+        "protocol": "openid-connect",
+        "protocolMapper": "oidc-usermodel-property-mapper",
+        "consentRequired": true,
+        "consentText": "${familyName}",
+        "config": {
+          "userinfo.token.claim": "true",
+          "user.attribute": "lastName",
+          "id.token.claim": "true",
+          "access.token.claim": "true",
+          "claim.name": "family_name",
+          "jsonType.label": "String"
+        }
+      },
+      {
+        "id": "e067bb36-571a-4a04-9abc-7090dfb7ece3",
+        "name": "username",
+        "protocol": "openid-connect",
+        "protocolMapper": "oidc-usermodel-property-mapper",
+        "consentRequired": true,
+        "consentText": "${username}",
+        "config": {
+          "userinfo.token.claim": "true",
+          "user.attribute": "username",
+          "id.token.claim": "true",
+          "access.token.claim": "true",
+          "claim.name": "preferred_username",
+          "jsonType.label": "String"
+        }
+      }
+    ],
+    "useTemplateConfig": false,
+    "useTemplateScope": false,
+    "useTemplateMappers": false
+  }

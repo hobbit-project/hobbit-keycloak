@@ -1,0 +1,33 @@
+[
+  {
+    "username": "benchmark-provider",
+    "enabled": true,
+    "firstName": "Benchmark",
+    "lastName": "Provider"
+  },
+  {
+    "username": "challenge-organiser",
+    "enabled": true,
+    "firstName": "Challenge",
+    "lastName": "Organiser"
+  },
+  {
+    "username": "guest",
+    "enabled": true,
+    "firstName": "Anonymous",
+    "lastName": "Guest"
+  },
+  {
+    "username": "system-provider",
+    "enabled": true,
+    "firstName": "System",
+    "lastName": "Provider"
+  },
+  {
+    "username": "admin",
+    "enabled": true,
+    "firstName": "The",
+    "lastName": "Admin",
+    "email": "the-admin.research@usu.de"
+  }
+]
