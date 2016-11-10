@@ -41,6 +41,7 @@ The preconfigured Keycloak image has following users:
 - user `system-provider` has role `system-provider`
 - user `guest` has role `guest`
 - user `challenge-organiser` has role `challenge-organiser`
+
 Default password for all these users is `hobbit`
 
 
