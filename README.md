@@ -15,7 +15,8 @@ chmod 666 db/*
 ```
 
 # Add image to platform-controler
-Add the following section to your `docker-compose.yml` of the platform-controler. If the name of the image is different, this need to be changed in the  `docker-compose.yml` as well.
+Add the following section to your `docker-compose.yml` of the platform-controler.
+If the name of the image is different, this need to be changed in the  `docker-compose.yml` as well.
 ```yaml
   keyclock:
     image: hobbit-keycloak
@@ -42,8 +43,8 @@ The Hobbit-gui application uses following roles (see User / 'Role Mappings').
 - `challenge-organiser`
 
 The preconfigured Keycloak image has following users:
-- user `testuser` with the roles `system-provider`, `guest`,  `challenge-organiser`
-- user `system-provider` has role `system-provider`
+- user `testuser` with the roles `system-provider`, `guest`
+- user `system-provider` has role `system-provider`, `guest`
 - user `guest` has role `guest`
 - user `challenge-organiser` has role `challenge-organiser`
 
