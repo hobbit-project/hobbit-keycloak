@@ -2,13 +2,13 @@
 
 This is the prepared Keycloak 2.3.0 Docker image for usage with the gui of the HOBBIT platform.
 
-# build docker image
+# Build docker image
 
 ```bash
 docker build -t hobbit-keycloak .
 ```
 
-# set permissions for db directory
+# Set permissions for db directory
 ```bash
 chmod 777 db
 chmod 666 db/*
