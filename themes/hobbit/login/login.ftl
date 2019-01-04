@@ -82,6 +82,10 @@
             </div>
         </#if>
 
+        <div>
+            This website uses cookies to manage your user session.
+        </div>
+
         <#if realm.password && social.providers??>
             <div id="kc-social-providers">
                 <ul>
