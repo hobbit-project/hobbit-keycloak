@@ -5,5 +5,5 @@ This is the prepared Keycloak 2.4.0 Docker image for usage with the gui of the H
 # Build docker image
 
 ```bash
-docker build -t hobbit-keycloak .
+docker build -t hobbitproject/hobbit-keycloak .
 ```
