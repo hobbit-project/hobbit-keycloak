@@ -83,6 +83,10 @@
         </#if>
 
         <div>
+            <#include "hobbit/privacypolicy.ftl">
+        </div>
+
+        <div>
             This website uses cookies to manage your user session.
         </div>
 
